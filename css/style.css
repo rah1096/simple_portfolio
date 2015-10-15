@@ -1,0 +1,138 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.bar {
+    height: 4em;
+    z-index: 999999;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 999999;
+    position: fixed;
+}
+
+.content .brand {
+    float: left;
+    margin-top: 0.4em;
+    image-rendering: crisp-edges;
+    margin-left: 15em;
+}
+
+.content .navbar {
+    float: right;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-right: 15em;
+}
+
+.content .navbar li {
+    display: inline;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-left: 1em;
+    font-family: Gill Sans MT, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content .navbar .location1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.content .navbar .location1 a:hover {
+    text-decoration: underline;
+    color: #950000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.location a {
+    text-decoration: underline;
+    color: #950000;
+    font-weight: 700;
+}
+
+.location a:hover {
+    text-decoration: underline;
+    color: #950000;
+    font-weight: 700;
+}
+
+.section1 {
+    height: 35em;
+    width: auto;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url("https://images.unsplash.com/photo-1442188950719-e8a67aea613a?q=80&fm=jpg&s=b91323d5c3f24a32a15a05ce7b122631");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -4em;
+    vertical-align: middle;
+}
+
+.section2 {
+    height: 30em;
+    width: 760px;
+    margin: 0 auto;
+}
+
+.section2 .self {
+    display: block;
+    border: .5em solid white;
+    border-radius: 100%;
+    margin: -8em auto;
+    width: 15em;
+}
+
+.section2 h2 {
+    font-size: 2em;
+    color: #5e5e5e;
+    margin-top: 5em;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: "minion-pro",serif;
+}
+
+.section2 .bold_name {
+    font-weight: bold;
+}
+
+.section2 .craft {
+    font-style: italic;
+    color: #950000;
+}
+
+.section3 {
+    height: 45em;
+    background-image: url("../images/NYT.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    border-top: 3em solid white;
+}
+
+.description {
+    height: 8em;
+    width: 30em;
+    background-color: rgba(156, 152, 195, 0.8);
+    margin: 20em auto;
+    color: #950000;
+    text-align: center;
+    padding-top: 2em;
+    font-family: "minion-pro",serif;
+    -webkit-font-smoothing: antialiased;
+}
