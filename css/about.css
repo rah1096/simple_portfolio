@@ -1,0 +1,103 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300');
+
+section > p {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+section > h3 {
+    color: #FFCF33;
+}
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masterhead {
+    background-image: url("https://images.unsplash.com/photo-1424746219973-8fe3bd07d8e3?q=80&fm=jpg&s=69c2c4804c5892bd8f882afa7ee4e003");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6em 0;
+    border-top: solid 1em #FF9900;
+    background-size: cover;
+}
+
+.masterhead-intro {
+    color: white;
+    text-align: center;
+    margin-bottom: 0.1em;
+    font-size: 30px;
+    text-shadow:
+    -3px -3px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 12em;
+    }
+}
+
+.masterhead-heading {
+    color: #FFCC66;
+    text-align: center;
+    margin-top: 0em;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    text-shadow:
+    -3px -3px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.intro, .location, .more {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.masterfoot {
+    text-align: center;
+    background-color: #53402D;
+    padding: 4em 0;
+    margin-top: 6em;
+    padding-bottom: 1.5em;
+}
+
+.hi {
+    color: white;
+}
+
+.social {
+    color: #FFCF33;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    width: 5em;
+}
+
+.masterfoot > ul > li > a {
+    color: #FF9900;
+    text-decoration: none;
+    font-weight: bold;
+}
